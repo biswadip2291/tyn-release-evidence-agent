@@ -1,0 +1,124 @@
+{
+  "wall_seconds": 84.656,
+  "phase_seconds": {
+    "discovery": 24.375,
+    "assessment": 60.266,
+    "decision": 0.0,
+    "total": 84.656
+  },
+  "models": [
+    "claude-sonnet-5-5"
+  ],
+  "model_calls": 67,
+  "model_seconds": 190.11,
+  "tokens": {
+    "input_tokens": 160,
+    "output_tokens": 23126,
+    "cache_creation_input_tokens": 150869,
+    "cache_read_input_tokens": 380233,
+    "total_input_including_cache": 531262
+  },
+  "tokens_by_agent": {
+    "discovery": {
+      "input_tokens": 10,
+      "output_tokens": 2022,
+      "cache_creation_input_tokens": 13773,
+      "cache_read_input_tokens": 12846
+    },
+    "assess:REQ-01": {
+      "input_tokens": 16,
+      "output_tokens": 2355,
+      "cache_creation_input_tokens": 11928,
+      "cache_read_input_tokens": 47799
+    },
+    "assess:REQ-03": {
+      "input_tokens": 12,
+      "output_tokens": 1746,
+      "cache_creation_input_tokens": 9286,
+      "cache_read_input_tokens": 24444
+    },
+    "assess:REQ-04": {
+      "input_tokens": 12,
+      "output_tokens": 1734,
+      "cache_creation_input_tokens": 12326,
+      "cache_read_input_tokens": 29111
+    },
+    "assess:REQ-02": {
+      "input_tokens": 12,
+      "output_tokens": 1574,
+      "cache_creation_input_tokens": 9292,
+      "cache_read_input_tokens": 24171
+    },
+    "assess:REQ-05": {
+      "input_tokens": 12,
+      "output_tokens": 1632,
+      "cache_creation_input_tokens": 9565,
+      "cache_read_input_tokens": 24161
+    },
+    "assess:REQ-06": {
+      "input_tokens": 12,
+      "output_tokens": 1917,
+      "cache_creation_input_tokens": 12438,
+      "cache_read_input_tokens": 29751
+    },
+    "assess:REQ-07": {
+      "input_tokens": 12,
+      "output_tokens": 2031,
+      "cache_creation_input_tokens": 12177,
+      "cache_read_input_tokens": 29349
+    },
+    "assess:REQ-08": {
+      "input_tokens": 12,
+      "output_tokens": 1430,
+      "cache_creation_input_tokens": 9326,
+      "cache_read_input_tokens": 23806
+    },
+    "assess:REQ-09": {
+      "input_tokens": 12,
+      "output_tokens": 2032,
+      "cache_creation_input_tokens": 12214,
+      "cache_read_input_tokens": 28701
+    },
+    "assess:REQ-10": {
+      "input_tokens": 10,
+      "output_tokens": 1129,
+      "cache_creation_input_tokens": 8106,
+      "cache_read_input_tokens": 16385
+    },
+    "assess:REQ-12": {
+      "input_tokens": 14,
+      "output_tokens": 1701,
+      "cache_creation_input_tokens": 17798,
+      "cache_read_input_tokens": 54090
+    },
+    "assess:REQ-11": {
+      "input_tokens": 14,
+      "output_tokens": 1823,
+      "cache_creation_input_tokens": 12640,
+      "cache_read_input_tokens": 35619
+    }
+  },
+  "tool_calls": {
+    "check_scope": 26,
+    "get_comments": 42,
+    "get_issue": 53,
+    "search_issues": 14
+  },
+  "tool_calls_total": 135,
+  "tool_errors": 0,
+  "tool_seconds": 57.355,
+  "submission_rejections": 3,
+  "agent_failures": [],
+  "errors": [],
+  "jira": {
+    "requests": 162,
+    "retries": 0,
+    "retry_statuses": {},
+    "errors": 0,
+    "by_endpoint": {
+      "POST /rest/api/3/search/jql": 14,
+      "GET /rest/api/3/issue/{key}": 53,
+      "GET /rest/api/3/issue/{key}/comment": 95
+    }
+  }
+}

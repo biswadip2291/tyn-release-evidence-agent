@@ -1,0 +1,39 @@
+2026-11-12 19:48:06,346 INFO tyn.import: Discovered 400 existing issues
+2026-11-12 19:48:06,346 INFO tyn.import: Creating 0 missing issues
+{
+  "actions": {
+    "issues_created": 0,
+    "comments_added": 0,
+    "links_created": 0,
+    "transitions_applied": 0
+  },
+  "warnings": [],
+  "verify": {
+    "issues": {
+      "expected": 400,
+      "found_via_search": 400,
+      "search_attempts": 1,
+      "mapped": 400,
+      "missing_from_search": []
+    },
+    "comments": {
+      "expected": 2059,
+      "found": 2059,
+      "issues_with_mismatched_text": []
+    },
+    "links": {
+      "expected": 76,
+      "found": 76,
+      "unexpected": 0
+    },
+    "statuses": {
+      "expected": 400,
+      "matching": 400
+    },
+    "ok": true
+  },
+  "seconds": 135.31,
+  "jira_requests": 1670,
+  "jira_retries": 0
+}
+exit=0

@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/import_state.json
+TYN_AI_Engineering_Assessment.pdf
